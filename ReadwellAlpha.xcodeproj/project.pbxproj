@@ -14,6 +14,7 @@
 		6870484B285A4191002E4CAF /* sampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6870484A285A4191002E4CAF /* sampleView.swift */; };
 		6870484D285A4403002E4CAF /* sampleView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6870484C285A4403002E4CAF /* sampleView2.swift */; };
 		6873338A2858CC8B00F7FC4C /* The Happy Prince.wav in Resources */ = {isa = PBXBuildFile; fileRef = 687333892858CC8B00F7FC4C /* The Happy Prince.wav */; };
+		68A678A1285AB67F003EE9D3 /* BookshelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A678A0285AB67F003EE9D3 /* BookshelfView.swift */; };
 		9B12D92327832EFA000D6FC3 /* ReadwellAlphaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12D92227832EFA000D6FC3 /* ReadwellAlphaApp.swift */; };
 		9B12D92527832EFA000D6FC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12D92427832EFA000D6FC3 /* ContentView.swift */; };
 		9B12D92727832EFC000D6FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B12D92627832EFC000D6FC3 /* Assets.xcassets */; };
@@ -67,6 +68,7 @@
 		6870484A285A4191002E4CAF /* sampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleView.swift; sourceTree = "<group>"; };
 		6870484C285A4403002E4CAF /* sampleView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleView2.swift; sourceTree = "<group>"; };
 		687333892858CC8B00F7FC4C /* The Happy Prince.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "The Happy Prince.wav"; sourceTree = "<group>"; };
+		68A678A0285AB67F003EE9D3 /* BookshelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfView.swift; sourceTree = "<group>"; };
 		9B12D91F27832EFA000D6FC3 /* ReadwellAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadwellAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B12D92227832EFA000D6FC3 /* ReadwellAlphaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadwellAlphaApp.swift; sourceTree = "<group>"; };
 		9B12D92427832EFA000D6FC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				9B12D9722785B9E0000D6FC3 /* CategoryHome.swift */,
 				9B12D92627832EFC000D6FC3 /* Assets.xcassets */,
 				9B12D92827832EFC000D6FC3 /* Preview Content */,
+				68A678A0285AB67F003EE9D3 /* BookshelfView.swift */,
 			);
 			path = ReadwellAlpha;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				9B12D959278396C0000D6FC3 /* BookDetailView.swift in Sources */,
 				9BFED9FD2786D59200175421 /* PDFKitView.swift in Sources */,
 				9BFEDA092786E72400175421 /* Extensions.swift in Sources */,
+				68A678A1285AB67F003EE9D3 /* BookshelfView.swift in Sources */,
 				9B5617CF278866D500785006 /* Blur.swift in Sources */,
 				9B12D95727834BC3000D6FC3 /* TopBookCard.swift in Sources */,
 				9BFEDA0B2786E7A100175421 /* AudioPlayerView.swift in Sources */,
@@ -569,7 +573,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ReadwellAlpha/Preview Content\"";
-				DEVELOPMENT_TEAM = 29BS7B74RT;
+				DEVELOPMENT_TEAM = 3VD8Z9BKRP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -598,7 +602,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ReadwellAlpha/Preview Content\"";
-				DEVELOPMENT_TEAM = 29BS7B74RT;
+				DEVELOPMENT_TEAM = 3VD8Z9BKRP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -42,14 +42,14 @@ struct TabbarView: View {
                         Text("Read").foregroundColor(.white)
                 }
             
-            NavigationView {
-                sampleView3()
-                  }
-                   .tag(2)
-                    .tabItem {
-                    Image("bookshelfIcon")
-                    Text("Bookshelf")
-                }
+//            NavigationView {
+//                BookshelfView()
+//                  }
+//                   .tag(2)
+//                    .tabItem {
+//                    Image("bookshelfIcon")
+//                    Text("Bookshelf")
+//                }
             
             NavigationView {
                 sampleView4()
