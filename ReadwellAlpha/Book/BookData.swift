@@ -16,12 +16,16 @@ struct Book: Identifiable, Codable, Hashable {
     var Description: String
     var isFavorite: Bool
     var category: Category
-       enum Category: String, CaseIterable, Codable {
-           case fantasy = "Fantasy"
-           case mystery = "Mystery"
-           case adventure = "Adventure"
-       }
     
+    
+       
+    
+}
+
+enum Category: String, CaseIterable, Codable {
+    case fantasy = "Fantasy"
+    case mystery = "Mystery"
+    case adventure = "Adventure"
 }
 
 // displayed in book detail view

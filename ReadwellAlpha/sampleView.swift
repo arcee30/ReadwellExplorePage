@@ -20,7 +20,7 @@ struct sampleView: View {
     }
 }
 
-struct sampleView2: View {
+struct sampleView5: View {
     var body: some View {
    
         Text("readwell <3")

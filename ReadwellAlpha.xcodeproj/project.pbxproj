@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		681137F1285B71D10041B3A4 /* categoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681137F0285B71D10041B3A4 /* categoryCard.swift */; };
+		681137F3285B72FC0041B3A4 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681137F2285B72FC0041B3A4 /* CategoryView.swift */; };
 		6814B9EE285381CE00130C89 /* PSPDFKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6814B9ED285381CE00130C89 /* PSPDFKit */; };
 		6836808D2858D4B70037D33D /* HappyPrince.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6836808C2858D4B70037D33D /* HappyPrince.pdf */; };
 		6836808F2858DBEB0037D33D /* happyPrinceMobile.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6836808E2858DBEB0037D33D /* happyPrinceMobile.pdf */; };
@@ -62,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		681137F0285B71D10041B3A4 /* categoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryCard.swift; sourceTree = "<group>"; };
+		681137F2285B72FC0041B3A4 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		6836808C2858D4B70037D33D /* HappyPrince.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HappyPrince.pdf; sourceTree = "<group>"; };
 		6836808E2858DBEB0037D33D /* happyPrinceMobile.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = happyPrinceMobile.pdf; path = ../../../happyPrinceMobile.pdf; sourceTree = "<group>"; };
 		68704848285A3A10002E4CAF /* tabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarView.swift; sourceTree = "<group>"; };
@@ -188,6 +192,7 @@
 				9B12D92627832EFC000D6FC3 /* Assets.xcassets */,
 				9B12D92827832EFC000D6FC3 /* Preview Content */,
 				68A678A0285AB67F003EE9D3 /* BookshelfView.swift */,
+				681137F2285B72FC0041B3A4 /* CategoryView.swift */,
 			);
 			path = ReadwellAlpha;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 				9B12D95627834BC3000D6FC3 /* TopBookCard.swift */,
 				9B12D94C27833020000D6FC3 /* BookCard.swift */,
 				9B12D958278396C0000D6FC3 /* BookDetailView.swift */,
+				681137F0285B71D10041B3A4 /* categoryCard.swift */,
 			);
 			path = Book;
 			sourceTree = "<group>";
@@ -398,6 +404,7 @@
 				9BFED9D927862AAD00175421 /* PDFTextView.swift in Sources */,
 				9B12D94F278330B6000D6FC3 /* BookData.swift in Sources */,
 				9B12D94D27833020000D6FC3 /* BookCard.swift in Sources */,
+				681137F1285B71D10041B3A4 /* categoryCard.swift in Sources */,
 				9B12D92527832EFA000D6FC3 /* ContentView.swift in Sources */,
 				9B12D9732785B9E0000D6FC3 /* CategoryHome.swift in Sources */,
 				9B12D92327832EFA000D6FC3 /* ReadwellAlphaApp.swift in Sources */,
@@ -408,6 +415,7 @@
 				68704849285A3A10002E4CAF /* tabBarView.swift in Sources */,
 				9B12D959278396C0000D6FC3 /* BookDetailView.swift in Sources */,
 				9BFED9FD2786D59200175421 /* PDFKitView.swift in Sources */,
+				681137F3285B72FC0041B3A4 /* CategoryView.swift in Sources */,
 				9BFEDA092786E72400175421 /* Extensions.swift in Sources */,
 				68A678A1285AB67F003EE9D3 /* BookshelfView.swift in Sources */,
 				9B5617CF278866D500785006 /* Blur.swift in Sources */,
