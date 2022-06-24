@@ -25,20 +25,25 @@ struct TabbarView: View {
             }
 
             NavigationView {
-                sampleView()
+                sampleView2()
+                //PDFTextView(book: booklist[0])
             }
             .tag(1)
             .tabItem {
                 Image("exploreIcon")
+                    .resizable().aspectRatio(contentMode: .fit)
                 Text("Explore")
             }
 
             NavigationView {
-                PDFTextView(book: booklist[0])
+                //PDFTextView(book: booklist[0])
+                sampleView(text: .constant(""))
                   }
+           
                    .tag(2)
                     .tabItem {
                     Image("readIcon")
+                            .resizable().aspectRatio(contentMode: .fit)
                         Text("Read").foregroundColor(.white)
                 }
             
@@ -52,11 +57,12 @@ struct TabbarView: View {
 //                }
             
             NavigationView {
-                sampleView4()
+                sampleView2()
                   }
                    .tag(2)
                     .tabItem {
                     Image("accountIcon")
+                            .resizable().aspectRatio(contentMode: .fit)
                     Text("Account")
                 }
         }

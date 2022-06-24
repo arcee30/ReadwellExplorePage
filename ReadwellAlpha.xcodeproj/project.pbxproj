@@ -11,7 +11,6 @@
 		681137F3285B72FC0041B3A4 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681137F2285B72FC0041B3A4 /* CategoryView.swift */; };
 		6814B9EE285381CE00130C89 /* PSPDFKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6814B9ED285381CE00130C89 /* PSPDFKit */; };
 		6836808D2858D4B70037D33D /* HappyPrince.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6836808C2858D4B70037D33D /* HappyPrince.pdf */; };
-		6836808F2858DBEB0037D33D /* happyPrinceMobile.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6836808E2858DBEB0037D33D /* happyPrinceMobile.pdf */; };
 		68704849285A3A10002E4CAF /* tabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68704848285A3A10002E4CAF /* tabBarView.swift */; };
 		6870484B285A4191002E4CAF /* sampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6870484A285A4191002E4CAF /* sampleView.swift */; };
 		6870484D285A4403002E4CAF /* sampleView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6870484C285A4403002E4CAF /* sampleView2.swift */; };
@@ -44,6 +43,7 @@
 		9BFEDA0B2786E7A100175421 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFEDA0A2786E7A100175421 /* AudioPlayerView.swift */; };
 		9BFEDA0D2786E83B00175421 /* sampleaudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BFEDA0C2786E83A00175421 /* sampleaudio.mp3 */; };
 		9BFEDA0F278726B000175421 /* Chimamanda_Ngozi_Adichie.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFEDA0E278726B000175421 /* Chimamanda_Ngozi_Adichie.pdf */; };
+		A8B57A992862B21D00FE95B3 /* happyPrinceMobile.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A8B57A982862B21D00FE95B3 /* happyPrinceMobile.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,6 @@
 		681137F0285B71D10041B3A4 /* categoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryCard.swift; sourceTree = "<group>"; };
 		681137F2285B72FC0041B3A4 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		6836808C2858D4B70037D33D /* HappyPrince.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HappyPrince.pdf; sourceTree = "<group>"; };
-		6836808E2858DBEB0037D33D /* happyPrinceMobile.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = happyPrinceMobile.pdf; path = ../../../happyPrinceMobile.pdf; sourceTree = "<group>"; };
 		68704848285A3A10002E4CAF /* tabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarView.swift; sourceTree = "<group>"; };
 		6870484A285A4191002E4CAF /* sampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleView.swift; sourceTree = "<group>"; };
 		6870484C285A4403002E4CAF /* sampleView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleView2.swift; sourceTree = "<group>"; };
@@ -99,6 +98,7 @@
 		9BFEDA0A2786E7A100175421 /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
 		9BFEDA0C2786E83A00175421 /* sampleaudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sampleaudio.mp3; sourceTree = "<group>"; };
 		9BFEDA0E278726B000175421 /* Chimamanda_Ngozi_Adichie.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Chimamanda_Ngozi_Adichie.pdf; sourceTree = "<group>"; };
+		A8B57A982862B21D00FE95B3 /* happyPrinceMobile.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = happyPrinceMobile.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +144,7 @@
 		6873338C2858CD6000F7FC4C /* pdfs */ = {
 			isa = PBXGroup;
 			children = (
-				6836808E2858DBEB0037D33D /* happyPrinceMobile.pdf */,
+				A8B57A982862B21D00FE95B3 /* happyPrinceMobile.pdf */,
 				6836808C2858D4B70037D33D /* HappyPrince.pdf */,
 				9BFEDA0E278726B000175421 /* Chimamanda_Ngozi_Adichie.pdf */,
 				9BFEDA042786DB2D00175421 /* USSBS.pdf */,
@@ -369,7 +369,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6836808F2858DBEB0037D33D /* happyPrinceMobile.pdf in Resources */,
 				6873338A2858CC8B00F7FC4C /* The Happy Prince.wav in Resources */,
 				9B12D92A27832EFC000D6FC3 /* Preview Assets.xcassets in Resources */,
 				9BFEDA0D2786E83B00175421 /* sampleaudio.mp3 in Resources */,
@@ -377,6 +376,7 @@
 				9BFEDA052786DB2D00175421 /* USSBS.pdf in Resources */,
 				9BFEDA0F278726B000175421 /* Chimamanda_Ngozi_Adichie.pdf in Resources */,
 				9B12D92727832EFC000D6FC3 /* Assets.xcassets in Resources */,
+				A8B57A992862B21D00FE95B3 /* happyPrinceMobile.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
